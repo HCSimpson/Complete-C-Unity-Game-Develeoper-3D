@@ -4,7 +4,8 @@
 <br>
 This repository contains:
 <br>
-1. 
+1. Experimenting: Contains work done on Section 1: Introduction and Setup
+2. Obstacle Course
 
 ## Table of Contents
 * [Background](#a-name"background"abackground)
