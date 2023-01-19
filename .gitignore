@@ -10,6 +10,14 @@ Experimenting/[Bb]uilds/
 Experimenting/[Ll]ogs/
 Experimenting/[Uu]ser[Ss]ettings/
 
+Obstacle Course/[Ll]ibrary/
+Obstacle Course/[Tt]emp/
+Obstacle Course/[Oo]bj/
+Obstacle Course/[Bb]uild/
+Obstacle Course/[Bb]uilds/
+Obstacle Course/[Ll]ogs/
+Obstacle Course/[Uu]ser[Ss]ettings/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
