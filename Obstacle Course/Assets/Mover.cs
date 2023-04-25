@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
-    //Serialize Field allows you to edit the value from inside Unity UI.
-    [SerializeField] float xValue = 0;
-    [SerializeField] float yValue = 0.01f;
-    [SerializeField] float zValue = 0;
+    [SerializeField] float moveSpeed = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +16,8 @@ public class Mover : MonoBehaviour
     void Update()
     {
         //Input allows you to access Input Manager and the methods inside it.
-        float xValue = Input.GetAxis("Horizontal");
-        float zValue = Input.GetAxis("Vertical");
+        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
         
         transform.Translate(xValue, 0, zValue);
     }
