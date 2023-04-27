@@ -6,6 +6,6 @@ public class ObjectHit : MonoBehaviour
 {
     //OnCollisionEnter is a callback method that is triggered when two box colliders touch.
     private void OnCollisionEnter(Collision other) {
-        Debug.Log("Bumped into a wall");
+        GetComponent<MeshRenderer>().material.color = Color.red;
     }
 }
